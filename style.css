@@ -31,7 +31,7 @@ body {
 .cactus {
     width: 60px;
     height: 60px;
-    background: url(/assets/cactus.png);
+    background: url('/assets/cactus.png');
     position: absolute;
     bottom: 0;
 }
