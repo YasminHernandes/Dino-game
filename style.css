@@ -1,53 +1,54 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Lato", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #fafafa;
-    overflow-x: hidden;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #fafafa;
+  overflow-x: hidden;
 }
 
 .background {
-    width: 100%;
-    height: 200px;
-    background-image: url('/assets/background.png');
-    background-repeat: repeat-x;
-    position: absolute;
-    bottom: 0;
-    animation: slideright 600s infinite linear;
+  width: 100%;
+  height: 200px;
+  background-image: url("./assets/background.png");
+  background-repeat: repeat-x;
+  position: absolute;
+  bottom: 0;
+  animation: slideright 600s infinite linear;
 }
 
 .dino {
-    width: 60px;
-    height: 60px;
-    background-image: url('/assets/dino.png');
-    position: absolute;
-    bottom: 0;
+  width: 60px;
+  height: 60px;
+  background-image: url("./assets/dino.png");
+  position: absolute;
+  bottom: 0;
 }
 
 .cactus {
-    width: 60px;
-    height: 60px;
-    background: url('/assets/cactus.png');
-    position: absolute;
-    bottom: 0;
+  width: 60px;
+  height: 60px;
+  background: url("./assets/cactus.png");
+  position: absolute;
+  bottom: 0;
 }
 
 .game-over {
-    text-align: center;
-    color: #666666;
-    margin-top: 50px;
+  text-align: center;
+  color: #666666;
+  margin-top: 50px;
 }
 
 @keyframes slideright {
-    from {
-        background-position: 70000%;
-    }
+  from {
+    background-position: 70000%;
+  }
 
-    to {
-        background-position: 0;
-    }
+  to {
+    background-position: 0;
+  }
 }
